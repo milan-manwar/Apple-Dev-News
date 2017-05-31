@@ -1,0 +1,12 @@
+PODS:
+  - FeedKit (5.0.0)
+
+DEPENDENCIES:
+  - FeedKit
+
+SPEC CHECKSUMS:
+  FeedKit: f3edf3ba14a3aef57caceec91ef77745d10abbbe
+
+PODFILE CHECKSUM: c78614d6a72cc3a84d5d8e56d52c4165c10f135b
+
+COCOAPODS: 1.1.1
