@@ -15,6 +15,8 @@
 		F12EF4071EDD5017005D41F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12EF4051EDD5017005D41F1 /* LaunchScreen.storyboard */; };
 		F1E458641EDEA982000CEA00 /* FeedViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E458631EDEA982000CEA00 /* FeedViewCell.swift */; };
 		F1E458661EDEBB1F000CEA00 /* FeedDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E458651EDEBB1F000CEA00 /* FeedDetailViewController.swift */; };
+		F1E818471EDEE76500C4C8C1 /* FeedDetails.png in Resources */ = {isa = PBXBuildFile; fileRef = F1E818451EDEE76500C4C8C1 /* FeedDetails.png */; };
+		F1E818481EDEE76500C4C8C1 /* FeedList.png in Resources */ = {isa = PBXBuildFile; fileRef = F1E818461EDEE76500C4C8C1 /* FeedList.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		F12EF4081EDD5017005D41F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1E458631EDEA982000CEA00 /* FeedViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewCell.swift; sourceTree = "<group>"; };
 		F1E458651EDEBB1F000CEA00 /* FeedDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedDetailViewController.swift; sourceTree = "<group>"; };
+		F1E818451EDEE76500C4C8C1 /* FeedDetails.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FeedDetails.png; sourceTree = "<group>"; };
+		F1E818461EDEE76500C4C8C1 /* FeedList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FeedList.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 				F12EF3FA1EDD5016005D41F1 /* Products */,
 				C8083AF4CCEE269B4B2661BA /* Pods */,
 				CFF752F733001AEFEC7CEA79 /* Frameworks */,
+				F1E818441EDEE74100C4C8C1 /* Screenshots */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +97,15 @@
 				F12EF4081EDD5017005D41F1 /* Info.plist */,
 			);
 			path = "Apple Dev News";
+			sourceTree = "<group>";
+		};
+		F1E818441EDEE74100C4C8C1 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				F1E818451EDEE76500C4C8C1 /* FeedDetails.png */,
+				F1E818461EDEE76500C4C8C1 /* FeedList.png */,
+			);
+			name = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,8 +171,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1E818471EDEE76500C4C8C1 /* FeedDetails.png in Resources */,
 				F12EF4071EDD5017005D41F1 /* LaunchScreen.storyboard in Resources */,
 				F12EF4041EDD5017005D41F1 /* Assets.xcassets in Resources */,
+				F1E818481EDEE76500C4C8C1 /* FeedList.png in Resources */,
 				F12EF4021EDD5017005D41F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
